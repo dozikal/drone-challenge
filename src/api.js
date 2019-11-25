@@ -4,6 +4,7 @@ const cors = require('cors');
 const path = require('path');
 
 
+
 app.use(cors());
 
 app.get('/', (req, res) => {
